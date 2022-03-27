@@ -1,5 +1,7 @@
 # Orbifold Visualization
 
+Computer Graphics homework, programmed in C++ with OpenGL.
+
 ## Task specification
 
 Create a ray tracing program that displays a dodecahedron room that can be written into a sphere with a radius of √3 m. The room has an optically smooth gold object defined by the implicit equation f(x, y, z) = exp⁡ (ax ^ 2 + by ^ 2-cz) -1, cut into a sphere of radius 0.3 m in the center of the room, and has a point light source. The walls of the room are of the diffuse-speculative type from the corner to 0.1 m, within which are portals opening to another similar rooms, rotated 72 degrees around the center of the wall and mirrored to the plane of the wall. The light source is not lit through the portal, each room has its own light source. It is enough to cross the portals a maximum of 5 times during the display. The virtual camera looks at the center of the room and revolves around it.
